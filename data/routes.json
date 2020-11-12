@@ -5,6 +5,24 @@
             [ "1V-LI2", "GDHN-K" ],
             [ "6-EQYE", "74-VZA" ],
             [ "X2-ZA5", "GK5Z-T" ]
+        ],
+
+        "Insmother, Wicked Creek": [
+            [ "78-0R6", "8-OZU1" ],
+            [ "78-0R6", "L-FM3P" ],
+            [ "MSG-BZ", "GPLB-C" ],
+            [ "SN9-3Z", "0TYR-T" ]
+
+        ],
+
+        "Scalding Pass, Wicked Creek": [
+            [ "1V-LI2", "5E-CMA" ],
+            [ "M9-MLR", "5E-CMA" ],
+            [ "OAQY-M", "R0-DMM" ],
+            [ "B-1UJC", "TP7-KE" ],
+            [ "4-43BW", "G9NE-B" ],
+            [ "X9V-15", "C0O6-K" ],
+            [ "DE-A7P", "YI-GV6" ]
         ]
     },
 
@@ -330,6 +348,151 @@
             [ "F2-NXA", "SD4A-2" ],
             [ "SD4A-2", "U6K-RG" ],
             [ "U6K-RG", "NSBE-L" ]
+        ]
+    },
+
+    "Wicked Creek": {
+        "Regional": [
+            [ "0RI-OV", "L-Z9KJ" ],
+            [ "B-WQDP", "5E-CMA" ],
+            [ "GGE-5Q", "5DE-QS" ],
+            [ "M3-KAQ", "J-RXYN" ],
+            [ "6-L4YC", "384-IN" ],
+            [ "6-L4YC", "MKIG-5" ],
+            [ "6-L4YC", "4F89-U" ],
+            [ "GM-50Y", "MKIG-5" ],
+            [ "F-3FOY", "GRHS-B" ],
+            [ "UM-SCG", "TP7-KE" ],
+            [ "UM-SCG", "MWA-5Q" ],
+            [ "LP1M-Q", "GPD5-0" ],
+            [ "G063-U", "07-SLO" ],
+            [ "H-HHTH", "F5M-CC" ],
+            [ "LKZ-CY", "XQS-GZ" ],
+            [ "1L-OEK", "F-QQ5N" ]
+        ],
+
+        "GU-JZ1": [
+            [ "L-Z9KJ", "7K-NSE" ],
+            [ "7K-NSE", "OR-7N5" ],
+            [ "OR-7N5", "JEQG-7" ],
+            [ "OR-7N5", "5NQI-E" ],
+            [ "B-WQDP", "JEQG-7" ]
+        ],
+
+        "5ZR-29": [
+            [ "0RI-OV", "SR-4EK" ],
+            [ "0RI-OV", "G9NE-B" ],
+            [ "0RI-OV", "C0O6-K" ],
+            [ "SJJ-4F", "C-LTXS" ],
+            [ "SJJ-4F", "HD-AJ7" ],
+            [ "SR-4EK", "G9NE-B" ],
+            [ "SR-4EK", "C0O6-K" ],
+            [ "SR-4EK", "HD-AJ7" ],
+            [ "G9NE-B", "C0O6-K" ],
+            [ "C-LTXS", "C0O6-K" ],
+            [ "C-LTXS", "HD-AJ7" ],
+            [ "C0O6-K", "HD-AJ7" ]
+        ],
+
+        "3GK-WS": [
+            [ "5Q65-4", "R0-DMM" ],
+            [ "R0-DMM", "UZ-QXW" ],
+            [ "UZ-QXW", "5DE-QS" ],
+            [ "5DE-QS", "F-3FOY" ],
+            [ "5DE-QS", "OAIG-0" ],
+            [ "OAIG-0", "UM-SCG" ]
+        ],
+
+        "DJ-XCW": [
+            [ "5E-CMA", "GGE-5Q" ],
+            [ "5E-CMA", "GPLB-C" ],
+            [ "GPLB-C", "U104-3" ],
+            [ "GPLB-C", "6-L4YC" ],
+            [ "U104-3", "M3-KAQ" ]
+        ],
+
+        "AC-RON": [
+            [ "8-OZU1", "MLQ-O9" ],
+            [ "8-OZU1", "0TYR-T" ],
+            [ "0TYR-T", "L-FM3P" ],
+            [ "L-FM3P", "GM-50Y" ],
+            [ "GM-50Y", "G9L-LP" ],
+            [ "G9L-LP", "X-ARMF" ]
+        ],
+
+        "5Y1E-3": [
+            [ "3Q-VZA", "A-4JOO" ],
+            [ "A-4JOO", "TP7-KE" ],
+            [ "TP7-KE", "R4N-LD" ],
+            [ "R4N-LD", "HPBE-D" ],
+            [ "R4N-LD", "M-MBRT" ]
+        ],
+
+        "0FC-ZX": [
+            [ "384-IN", "YHEN-G" ],
+            [ "YHEN-G", "E-JCUS" ],
+            [ "YHEN-G", "MKIG-5" ],
+            [ "YHEN-G", "30-YOU" ],
+            [ "MKIG-5", "30-YOU" ],
+            [ "30-YOU", "J7-BDX" ],
+            [ "4F89-U", "E-JCUS" ],
+            [ "4F89-U", "30-YOU" ],
+            [ "E-JCUS", "W-QN5X" ],
+            [ "E-JCUS", "LP1M-Q" ],
+            [ "W-QN5X", "G063-U" ]
+        ],
+
+        "760-9C": [
+            [ "GRHS-B", "J-RXYN" ],
+            [ "GRHS-B", "DUO-51" ],
+            [ "J-RXYN", "DUO-51" ],
+            [ "J-RXYN", "Z-A8FS" ],
+            [ "DUO-51", "Z-A8FS" ],
+            [ "DUO-51", "07-SLO" ],
+            [ "Z-A8FS", "07-SLO" ],
+            [ "07-SLO", "GPD5-0" ]
+        ],
+
+        "R-M719": [
+            [ "F-EM4Q", "MN-Q26" ],
+            [ "MN-Q26", "4-OS2A" ],
+            [ "MN-Q26", "XQS-GZ" ],
+            [ "MN-Q26", "Q-GQHN" ],
+            [ "YI-GV6", "1L-OEK" ],
+            [ "YI-GV6", "SO-X5L" ],
+            [ "Q-GQHN", "1L-OEK" ],
+            [ "Q-GQHN", "4-OS2A" ],
+            [ "Q-GQHN", "XQS-GZ" ],
+            [ "1L-OEK", "SO-X5L" ],
+            [ "1L-OEK", "5H-SM2" ]
+        ],
+
+        "RF9-ZU": [
+            [ "MWA-5Q", "H-HHTH" ],
+            [ "MWA-5Q", "JQU-KY" ],
+            [ "MWA-5Q", "UY5A-D" ],
+            [ "H-HHTH", "UY5A-D" ],
+            [ "ZH-GKG", "UY5A-D" ],
+            [ "ZH-GKG", "C-62I5" ],
+            [ "JQU-KY", "C-62I5" ]
+        ],
+
+        "4-QV2L": [
+            [ "WRL4-2", "V7G-RL" ],
+            [ "WRL4-2", "LKZ-CY" ],
+            [ "LKZ-CY", "F5M-CC" ],
+            [ "F5M-CC", "TZE-UB" ],
+            [ "TZE-UB", "XEN7-0" ]
+        ],
+
+        "J-9M7D": [
+            [ "4-EFLU", "F-QQ5N" ],
+            [ "4-EFLU", "1-7B6D" ],
+            [ "4-EFLU", "U-HVIX" ],
+            [ "F-QQ5N", "1-7B6D" ],
+            [ "F-QQ5N", "U-HVIX" ],
+            [ "U-HVIX", "EIH-IU" ],
+            [ "1-7B6D", "H6-EYX" ]
         ]
     }
 }
