@@ -1,0 +1,47 @@
+{
+    "VOID": {
+        "diplo": "self",
+
+        "systems": [
+            "0EA3-8",
+            "0YMH-Q",
+            "0-YMZM",
+            "QA-P7J",
+            "UR-HG4"
+        ]
+    },
+
+    "DMG": {
+        "diplo": "friendly",
+
+        "systems": [
+            "U-EUG7"
+        ]
+    },
+
+    "KSU": {
+        "diplo": "friendly",
+
+        "systems": [
+            "N5V-Y0"
+        ]
+    },
+
+    "SOON": {
+        "diplo": "enemy",
+
+        "systems": [
+            "02QH-A",
+            "WQZ8-4",
+            "P-I9PF"
+        ]
+    },
+
+    "TCTY": {
+        "diplo": "friendly",
+
+        "systems": [
+            "TL-FDN"
+        ]
+    }
+}

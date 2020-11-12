@@ -1,0 +1,22 @@
+.edge line {
+    stroke: #aaa;
+}
+
+.node rect {
+    pointer-events: all;
+    stroke: #000;
+    stroke-width: 1;
+    fill: #fff;
+}
+
+.diplo-self rect {
+    fill: lavender;
+}
+
+.diplo-friendly rect {
+    fill: #05cafc
+}
+
+.diplo-hostile rect {
+    fill: #d37687
+}

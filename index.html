@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'none';
+            connect-src 'self';
+            img-src     'self';
+            script-src  'self';
+            style-src   'self';
+        ">
+
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="./styles/map.css">
+    </head>
+
+    <body>
+        <svg width="10000" height="10000"></svg>
+
+        <script src="./scripts/d3.v6.min.js"></script>
+        <script src="./scripts/map.js"></script>
+    </body>
+</html>
