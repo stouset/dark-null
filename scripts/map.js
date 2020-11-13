@@ -1,3 +1,5 @@
+import { default as forceCluster } from "./forceCluster.js"
+
 Promise.all([
     d3.json('./data/universe.json'),
     d3.json('./data/routes.json'),
@@ -65,36 +67,13 @@ Promise.all([
     text.append("tspan").attr("x", 40).attr("y", -2).text(d => d.sec);
     text.append("tspan").attr("x", 40).attr("dy", 15).text(d => d.corp);
 
-    const forceLinkRegions = d3.forceLink(graph.edges)
-        .id(d => d.id)
-        .strength(0.9)
-        .iterations(5)
-        .distance(l => {
-            switch (true) {
-                case l.source.constellation === l.target.constellation: return 0;
-                case l.source.region        === l.target.region:        return 500;
-                default:                                                return 3000;
-            };
-        });
-
-    const forceLinkConstellations = d3.forceLink(graph.edges)
-        .id(d => d.id)
-        .strength(0.85)
-        .distance(l => l.source.constellation === l.target.constellation ? 5 : null);
-
-    const forceLinkSystems = d3.forceLink(graph.edges)
-        .id(d => d.id)
-        .strength(0.5)
-        .distance(25)
-
     const simulation = d3.forceSimulation(graph.nodes)
-        .force("center",             d3.forceCenter(width / 2, height / 2))
-        .force("linkRegions",        forceLinkRegions)
-        .force("linkConstellations", forceLinkConstellations)
-        .force("linkSystems",        forceLinkSystems)
-        .force("collide",            d3.forceCollide(60))
-        .force("charge1",            d3.forceManyBody().strength(-1000).distanceMin(1000).distanceMax(5000))
-        .force("charge2",            d3.forceManyBody().strength(-200).distanceMin(200).distanceMax(1000))
+        .force("center",  d3.forceCenter(width / 2, height / 2))
+        .force("collide", d3.forceCollide(60))
+        .force("charge",  d3.forceManyBody().strength(-1000))
+        .force("cluster", forceCluster().clusterBy(d => d.constellation))
+        .force("cluster", forceCluster().clusterBy(d => d.region))
+        .force("links",   d3.forceLink(graph.edges).id(d => d.id));
 
     simulation.on("tick", () => {
         edge
